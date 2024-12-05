@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EliteMart</title>
+
+  <link rel="shortcut icon" href="/FINAL/FINAL/assets/images/logo.png" type="image/svg+xml">
+  <link rel="stylesheet" href="/FINAL/FINAL/assets/css/style.css">
+  <link rel="stylesheet" href="/FINAL/mens/mens.css">
+  <link rel="stylesheet" href="/FINAL/Common Files/style.css">
+  <link rel="stylesheet" href="/FINAL/Home Living Products/home_furnishing.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
+
+</head>
+
+<body id="top">
+  <button class ="chatbot-toggler">
+    <span class="material-symbols-rounded"><img src="/FINAL/FINAL/assets/images/chatbot.jpeg" alt="" class="chatbot_img"></span>
+    <span class="material-symbols-outlined"><img src="/FINAL/FINAL/assets/images/chatbot.jpeg" alt="" class="chatbot_img"></span>
+  </button>
+  <div class="chatbot">
+    <header>
+      <h2>Chatbot</h2>
+      <span class="close-btn material-symbols-outlined">close</span>
+    </header>
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <span class="material-symbols-outlined"><img src="/FINAL/FINAL/assets/images/chatbot.jpeg" alt="" class="chatbot_img1"></span>
+        <p>Hi there 👋<br>How can I help you today?</p>
+      </li>
+    </ul>
+    <div class="chat-input">
+      <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+      <span id="send-btn" class="material-symbols-rounded">send</span>
+    </div>
+  </div>
+  <header class="header">
+
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">Free Shipping All India On Orders ₹500+</p>
+      </div>
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+        
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="Search product" class="search-field">
+
+          <button class="search-submit" aria-label="search">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <div class="logo-img"><a href="./home.html">
+          <img src="/FINAL/FINAL/assets/images/logo.png" alt="Glowing" height="40" width="100"></a>
+        </div>
+        <div class="header-actions"><a href="/FINAL/FINAL/dashboard-master/index.html">
+          <button class="header-action-btn" id="profile" aria-label="user">
+            <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button> </a>
+          <a href="/FINAL/wishlist/wishlist.html">
+        <button class="header-action-btn" id="favourite" aria-label="favourite item">
+          <ion-icon name="star-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+        </button></a>
+          <a href="/FINAL/wishlist/cart.html">
+        <button class="header-action-btn" id="cart" aria-label="cart item">
+
+          <ion-icon name="bag-handle-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+        </button>  </a>
+        
+        </div>    
+        </a>
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+
+            <li>
+              <a href="/FINAL/FINAL/home.html" class="navbar-link has-after">Home</a>
+            </li>
+
+            <li>
+              <a href="#Beauty & Herbal" class="navbar-link has-after">Beauty & Herbal</a>
+            </li>
+
+            <li>
+              <a href="#Cloths" class="navbar-link has-after">Offers</a>
+            </li>
+
+            <li>
+              <a href="/FINAL/Home&Living/home&living.html" class="navbar-link has-after">Home & Living</a>
+            </li>
+
+            <li>
+              <a href="/FINAL/mens/men.html" class="navbar-link has-after">Men</a>
+            </li>
+
+            <li>
+              <a href="/FINAL/women/women.html" class="navbar-link has-after">Women</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </header>
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing">
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li>
+          <a href="#collection" class="navbar-link" data-nav-link>Beauty & Herbal</a>
+        </li>
+
+        <li>
+          <a href="#shop" class="navbar-link" data-nav-link>Offers</a>
+        </li>
+
+        <li>
+          <a href="#offer" class="navbar-link" data-nav-link>Home & Living</a>
+        </li>
+
+        <li>
+          <a href="/FINAL/mens/men.html" class="navbar-link" data-nav-link>Men</a>
+        </li>
+
+        <li>
+          <a href="/FINAL/women/women.html" class="navbar-link" data-nav-link>Women</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+
+  <div id="sorting">
+        
+    <select class="filter" id="brandFilter">
+        <option id="normal" value="all">FILTER BY BRAND</option>
+        <option value="DREAM WEAVERZ">DREAM WEAVERZ</option>
+        <option value="KLOTTHE">KLOTTHE</option>
+        <option value="SEJ By Nisha Gupta">SEJ By Nisha Gupta</option>
+        <option value="JAIPUR FABRIC">JAIPUR FABRIC</option>
+        <option value="PUMA">PUMA</option>
+        <option value="Arrabi">Arrabi</option>
+        <option value="Home Ecstasy">Home Ecstasy</option>
+        <option value="ELEVANTO">ELEVANTO</option>
+        <option value="LA VERNE">LA VERN</option>
+        <option value="FLORIDA">FLORIDA</option>
+        <option value="Dreamscape">Dreamscape</option>
+        <option value="Trident">Trident</option>
+      </select>
+
+      <select class="filter" id="priceSort">
+        <option value="---">SORT BY PRICE</option>
+        <option value="lth">Low → High</option>
+        <option value="htl">High → Low</option>
+      </select>
+
+      <select class="filter" id="nameSort">
+        <option value="---">SORT BY NAME</option>
+        <option value="asc">Ascending</option>
+        <option value="dsc">Descending</option>
+      </select>
+   
+</div>
+
+<div id="wrapper">
+     <div id="filter">
+         <div class="a">
+                <h3>FILTERS </h3>
+                <div>
+                    <input type="radio" id="rb" name="group">
+                    <label for="sagar">Men</label><br>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">Women</label><br>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">Boys</label><br>
+                    <input type="radio" id="rb" name="group">
+                    <label for="rb">Girls</label>
+                </div>
+                
+            </div>
+            <div class="b">
+                <h3>CATEGORIES</h3>
+                <div>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Bedsheets</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Cushion Covers</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Curtain and Sheers</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Wall Art</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Blankets Quits and Dohars</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Clocks</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">Orgaisers</label><br>
+                    <input type="checkbox" id="cb" name="group">
+                    <label for="cb">bath Towels</label>
+                </div>
+              
+            </div>
+            <div class="b">
+                    <h3>BRAND</h3>
+                    <div>         
+                        <input type="checkbox" id="sagar" name="group">
+                        <label for="cb">KLOTTHE</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Story@home</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Arrabi</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Cortina</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">BIANCA</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Home Center</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">ROMME</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Kuber Industries</label>
+                    </div>
+                   
+                </div>
+                <div class="b">
+                    <h3>PRICE</h3>
+                    <div>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Rs. 50 to Rs. 22838</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Rs. 22838 to Rs. 45626</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Rs. 45626 to Rs. 68414</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Rs. 68414 to Rs. 91202</label><br>
+                    </div>
+                   
+                </div>
+                <div class="b">
+                    <h3>COLOR</h3>
+                    <div>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Blue</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">White</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Brown</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Multi</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Black</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Gray</label><br>
+                        <input type="checkbox" id="cb" name="group">
+                        <label for="cb">Green</label><br>
+                    </div>
+                    
+                </div>
+                <div class="c">
+                    <h3>DISCOUNT RANGE</h3>
+                    <div>
+                        <input type="radio" id="rb" name="group">
+                        <label for="rb">10% and above</label><br>
+                        <input type="radio" id="rb" name="group">
+                        <label for="rb">20% and above</label><br>
+                        <input type="radio" id="rb" name="group">
+                        <label for="rb">30% and aboves</label><br>
+                        <input type="radio" id="rb" name="group">
+                        <label for="rb">40% and above</label><br>
+                        <input type="radio" id="rb" name="group">
+                        <label for="rb">50% and above</label><br>
+                        <input type="radio" id="rb" name="group">
+                        <label for="rb">60% and above</label><br>
+                        <input type="radio" id="rb" name="group">
+                        <label for="rb">70% and above</label><br>
+                        <input type="radio" id="rb" name="group">
+                        <label for="rb">80% and above</label><br>
+                    </div>
+                    
+                </div>
+            </div>  
+            
+        <div id="container"></div>
+    </div>       
+    
+
+  <footer class="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">
+              Find a location nearest you. See <a href="#" class="link">Our Stores</a>
+            </p>
+          </li>
+
+          <li>
+            <p class="footer-list-text bold">+91 6374105596</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">hello@domain.com</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Useful links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">New Products</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Best Sellers</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Bundle & Save</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Gift Card</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Infomation</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Start a Return</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="newsletter-title">Good emails.</p>
+
+          <p class="newsletter-text">
+            Enter your email below to be the first to know about new collections and product launches.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email address" required
+              class="email-field">
+
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+          <p class="copyright">
+            &copy; 2024 VBC
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="/FINAL/FINAL/assets/images/logo.png" width="179" height="26" loading="lazy" alt="Glowing">
+        </a>
+
+        <img src="/FINAL/FINAL/assets/images/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
+
+      </div>
+
+    </div>
+  </footer>
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+  <script src="/FINAL/Home Living Products/home_furnishing.js" defer></script>
+
+  <script src="/FINAL/FINAL/assets/js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

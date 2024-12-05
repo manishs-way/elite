@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VBC Online Store</title>
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/FINAL/Home&Living/home&living.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <link rel="stylesheet" href="/FINAL/Common Files/homeLiving.css">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
+
+</head>
+
+<body id="top">
+  <button class ="chatbot-toggler">
+    <span class="material-symbols-rounded"><img src="/FINAL/FINAL/assets/images/chatbot.jpeg" alt="" class="chatbot_img"></span>
+    <span class="material-symbols-outlined"><img src="/FINAL/FINAL/assets/images/chatbot.jpeg" alt="" class="chatbot_img"></span>
+  </button>
+  <div class="chatbot">
+    <header>
+      <h2>Chatbot</h2>
+      <span class="close-btn material-symbols-outlined">close</span>
+    </header>
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <span class="material-symbols-outlined"><img src="/FINAL/FINAL/assets/images/chatbot.jpeg" alt="" class="chatbot_img1"></span>
+        <p>Hi there 👋<br>How can I help you today?</p>
+      </li>
+    </ul>
+    <div class="chat-input">
+      <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+      <span id="send-btn" class="material-symbols-rounded">send</span>
+    </div>
+  </div>
+  <header class="header">
+
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">Free Shipping All India On Orders ₹500+</p>
+      </div>
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+        
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="Search product" class="search-field">
+
+          <button class="search-submit" aria-label="search">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <div class="logo-img"><a href="/FINAL/FINAL/home.html">
+          <img src="/FINAL/FINAL/assets/images/logo.png" alt="Glowing" height="40" width="100"></a>
+        </div>
+        <div class="header-actions"><a href="/FINAL/FINAL/dashboard-master/index.html">
+          <button class="header-action-btn" id="profile" aria-label="user">
+            <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button> </a>
+          <a href="/FINAL/wishlist/wishlist.html">
+        <button class="header-action-btn" id="favourite" aria-label="favourite item">
+          <ion-icon name="star-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+        </button></a>
+          
+        <a href="/FINAL/wishlist/cart.html">
+          <button class="header-action-btn" id="cart" aria-label="cart item">
+  
+            <ion-icon name="bag-handle-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+  
+          </button>  </a>
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+
+            <li>
+              <a href="/FINAL/FINAL/home.html" class="navbar-link has-after">Home</a>
+            </li>
+
+            <li>
+              <a href="#Beauty & Herbal" class="navbar-link has-after">Beauty & Herbal</a>
+            </li>
+
+            <li>
+              <a href="#Cloths" class="navbar-link has-after">Offers</a>
+            </li>
+
+            <li>
+              <a href="/FINAL/Home&Living/home&living.html" class="navbar-link has-after">Home & Living</a>
+            </li>
+
+            <li>
+              <a href="/FINAL/mens/men.html" class="navbar-link has-after">Men</a>
+            </li>
+
+            <li>
+              <a href="/FINAL/women/women.html" class="navbar-link has-after">Women</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </header>
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img src="/FINAL/FINAL/assets/images/logo.png" width="179" height="26" alt="Glowing">
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="/FINAL/FINAL/home.html" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li>
+          <a href="#collection" class="navbar-link" data-nav-link>Beauty & Herbal</a>
+        </li>
+
+        <li>
+          <a href="#shop" class="navbar-link" data-nav-link>Offers</a>
+        </li>
+
+        <li>
+          <a href="/FINAL/Home&Living/home&living.html" class="navbar-link" data-nav-link>Home & Living</a>
+        </li>
+
+        <li>
+          <a href="/FINAL/mens/men.html" class="navbar-link" data-nav-link>Men</a>
+        </li>
+
+        <li>
+          <a href="/FINAL/women/women.html" class="navbar-link" data-nav-link>Women</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>             
+  </header>
+
+ <section id="banner">
+     <div>
+         <a href="/FINAL/Home Living Products/home_furnishing.html"><img src="https://bit.ly/3qOkAXl" alt="" class="forMob">
+         <img src="https://bit.ly/36AvNUN" alt="" class="forWeb forDesk"></a>
+     </div>
+ </section>
+ 
+ <!-- MAIN CONTAINER -->
+ <main>
+     <div id="content">
+         <h1 class="brand_heading" id="content_head">nice to see you, come on in!</h1>
+         <div id="category">
+             <div><a href="/FINAL/Home Living Products/home_furnishing.html"><img src="https://bit.ly/3JP9yIJ" alt="category1"></a></div>
+             <div><a href="/FINAL/Home Living Products/home_furnishing.html"><img src="https://bit.ly/3NHZxQj" alt="category2"></a></div>
+             <div><a href="/FINAL/Home Living Products/home_furnishing.html"><img src="https://bit.ly/3tNDj7i" alt="category3"></a></div>
+             <div><a href="/FINAL/Home Living Products/home_furnishing.html"><img src="https://bit.ly/38c0sIk" alt="category4"></a></div>
+             <div><a href="/FINAL/Home Living Products/home_furnishing.html"><img src="https://bit.ly/3DAhsUp" alt="category5"></a></div>
+             <div><a href="/FINAL/Home Living Products/home_furnishing.html"><img src="https://bit.ly/3NwvMS5" alt="category6"></a></div>
+         </div>
+     </div>
+     <aside>
+         <!-- ANCHORS BUILT USING JS -->
+     </aside>
+ </main>
+
+ <!-- BRANDS & OTHER CONTENT SECTIONS- -->
+     <section class="wrapper">
+         <div><img src="https://bit.ly/35oLzBq" alt="trends"></div>
+         <div class="container">
+             <div><a href="/FINAL/Home Living Products/home_furnishing.html"><img src="https://bit.ly/3JQGjWh" alt="trend1"></a></div>
+             <div><a href="/FINAL/Home Living Products/home_furnishing.html"><img src="https://bit.ly/3iMuwfy" alt="trend2"></a></div>
+             <div><a href="/FINAL/Home Living Products/home_furnishing.html"><img src="https://bit.ly/3LsCffk" alt="trend3"></a></div>
+         </div>
+     </section>
+    
+    
+     <section class="wrapper">
+          <div><img src="https://bit.ly/3IQtgCA" alt="trends" id="featured"></div>
+          <div class="container">
+              <div><img src="https://bit.ly/36EypRl" alt="brand1"></div>
+              <div><img src="https://bit.ly/3uFSwGD" alt="brand2"></div>
+              <div><img src="https://bit.ly/3tLl1DM" alt="brand3"></div>
+              <div><img src="https://bit.ly/3LnF0y9" alt="brand4"></div>
+              <div><img src="https://bit.ly/3iMLRoK" alt="brand5"></div>
+          </div>
+     </section>
+
+
+
+  <footer class="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">
+              Find a location nearest you. See <a href="#" class="link">Our Stores</a>
+            </p>
+          </li>
+
+          <li>
+            <p class="footer-list-text bold">+91 6374105596</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">hello@domain.com</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Useful links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">New Products</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Best Sellers</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Bundle & Save</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Gift Card</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Infomation</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Start a Return</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="newsletter-title">Good emails.</p>
+
+          <p class="newsletter-text">
+            Enter your email below to be the first to know about new collections and product launches.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email address" required
+              class="email-field">
+
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+          <p class="copyright">
+            &copy; 2024 EliteMart
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+<div><a href="#" class="logo-footer">
+  <img src="/FINAL/FINAL/assets/images/logo.png" width="179" height="26" loading="lazy" alt="Glowing">
+</a></div>
+        
+<div>
+  <img src="/FINAL/FINAL/assets/images/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
+</div>
+        
+
+    </div>
+  </footer>
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+  <script src="/FINAL/FINAL/assets/js/script.js" defer></script>
+  <script src="/FINAL/Common Files/homeLiving.js" defer></script>
+  <script src="/FINAL/Home&Living/home&living.js" defer></script>
+  <script src="/FINAL/Common Files/hyperlinks.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
